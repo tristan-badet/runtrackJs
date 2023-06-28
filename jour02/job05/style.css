@@ -1,0 +1,12 @@
+body {
+  height: 4096px;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  height: 20px;
+  background-color: blueviolet;
+  transition: background-color 0.2s ease;
+}
