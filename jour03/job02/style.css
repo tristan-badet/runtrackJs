@@ -1,0 +1,13 @@
+img {
+  display: inline-block;
+}
+
+#random {
+  display: block;
+}
+
+#emptyContainer {
+  height: 400px;
+  width: 800px;
+  border: 1px solid black;
+}
