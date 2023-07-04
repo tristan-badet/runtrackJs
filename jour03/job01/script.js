@@ -11,8 +11,4 @@ document.addEventListener("DOMContentLoaded", () => {
   buttonDisplay.addEventListener("click", () => {
     body.style.display = "none";
   });
-
-  container.addEventListener("dragstart", (event) => {
-    event.dataTransfer.setData("text/plain", event.target.id);
-  });
 });
